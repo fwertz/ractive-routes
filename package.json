@@ -1,0 +1,41 @@
+{
+  "name": "ractive-routes",
+  "version": "0.0.1",
+  "description": "Declarative Ractive routing for simplified component-based hierarchies",
+  "main": "lib/ractive-routes.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fwertz/ractive-routes.git"
+  },
+  "keywords": [
+    "ractive",
+    "ractivejs",
+    "routing",
+    "routes",
+    "route",
+    "router",
+    "declarative",
+    "component"
+  ],
+  "author": "Francis Wertz <francis.wertz@seisan.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fwertz/ractive-routes/issues"
+  },
+  "homepage": "https://github.com/fwertz/ractive-routes#readme",
+  "dependencies": {
+    "page": "1.7.1",
+    "ractive": "github:ractivejs/ractive#edge"
+  },
+  "devDependencies": {
+    "babel-cli": "6.14.0",
+    "babel-loader": "6.2.5",
+    "babel-preset-es2015": "6.14.0",
+    "ractive-component-loader": "1.2.0",
+    "webpack": "1.13.2"
+  }
+}
